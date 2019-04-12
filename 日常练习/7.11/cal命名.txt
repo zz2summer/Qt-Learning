@@ -1,0 +1,9 @@
+firstLineEdit   comboBox  secondLineEdit  equalLabel1  resultLineEdit
+                                                           claButton
+
+
+QMessageBox::NoIcon	0	the message box does not have any icon.
+QMessageBox::Question	4	an icon indicating that the message is asking a question.
+QMessageBox::Information	1	an icon indicating that the message is nothing out of the ordinary.
+QMessageBox::Warning	2	an icon indicating that the message is a warning, but can be dealt with.
+QMessageBox::Critical	3	an icon indicating that the message represents a critical problem.

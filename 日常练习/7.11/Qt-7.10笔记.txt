@@ -1,0 +1,16 @@
+windows + get = widget
+QTabWidget
+QLabel
+QLinedit  单行编辑器
+QTextedit 多行编辑器
+
+QGroupBox 组框
+<a href="http//:www.baidu.com">   百度 </a>    超级链接
+
+
+QPushButton 按钮
+QCheckBox   多选按钮                     QAbstractButton //抽象按钮
+QRadioBox   圆圈单选按钮 
+
+QHBoxLayout    布局   horizontal  水平布局
+QVBoxLayout    布局   vertical    垂直布局

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/action.gif</file>
+        <file>images/colors.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/delete.png</file>
+        <file>images/exit.png</file>
+        <file>images/font.png</file>
+        <file>images/lightColoredWallpaper.jpg</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/print.png</file>
+        <file>images/save.png</file>
+        <file>images/saveAs.png</file>
+        <file>images/time.png</file>
+        <file>images/undo.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>colors.png</file>
+        <file>copy.png</file>
+        <file>cut.png</file>
+        <file>delete.png</file>
+        <file>exit.png</file>
+        <file>font.png</file>
+        <file>lightColoredWallpaper.jpg</file>
+        <file>new.png</file>
+        <file>open.png</file>
+        <file>print.png</file>
+        <file>save.png</file>
+        <file>saveAs.png</file>
+        <file>time.png</file>
+        <file>undo.png</file>
+        <file>paste.png</file>
+    </qresource>
+</RCC>

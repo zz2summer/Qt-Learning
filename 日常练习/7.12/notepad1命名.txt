@@ -1,0 +1,14 @@
+newAction
+openAction
+saveAction
+saveAsAction
+
+printAction
+exitAction
+
+
+undoAction
+cutAction
+copyAction
+pasteAction
+deleteAction

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>0</y>
+      <width>611</width>
+      <height>391</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>615</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件（F）</string>
+    </property>
+    <addaction name="newAction"/>
+    <addaction name="openAction"/>
+    <addaction name="saveAction"/>
+    <addaction name="saveAsAction"/>
+    <addaction name="separator"/>
+    <addaction name="action_5"/>
+    <addaction name="printAction"/>
+    <addaction name="separator"/>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑（E）</string>
+    </property>
+    <addaction name="undoAction"/>
+    <addaction name="separator"/>
+    <addaction name="cutAction"/>
+    <addaction name="copyAction"/>
+    <addaction name="pasteAction"/>
+    <addaction name="deleteAction"/>
+    <addaction name="separator"/>
+    <addaction name="action_F"/>
+    <addaction name="action_N"/>
+    <addaction name="action_R"/>
+    <addaction name="action_G"/>
+    <addaction name="separator"/>
+    <addaction name="action_A"/>
+    <addaction name="dateTimeAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_O">
+    <property name="title">
+     <string>格式（O）</string>
+    </property>
+    <addaction name="action_W"/>
+    <addaction name="fontAction"/>
+    <addaction name="colorAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_V">
+    <property name="title">
+     <string>查看（V）</string>
+    </property>
+    <addaction name="action_S"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助（H）</string>
+    </property>
+    <addaction name="action_H"/>
+    <addaction name="separator"/>
+    <addaction name="qtHelpAction"/>
+    <addaction name="aboutBossAction"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_E"/>
+   <addaction name="menu_O"/>
+   <addaction name="menu_V"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="newAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/new.png</normaloff>:/new/prefix1/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建（N）</string>
+   </property>
+  </action>
+  <action name="openAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/open.png</normaloff>:/new/prefix1/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开（O）…</string>
+   </property>
+  </action>
+  <action name="saveAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/save.png</normaloff>:/new/prefix1/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存（S）</string>
+   </property>
+  </action>
+  <action name="saveAsAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/saveAs.png</normaloff>:/new/prefix1/saveAs.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为（A）…</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>页面设置（U）…</string>
+   </property>
+  </action>
+  <action name="printAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/print.png</normaloff>:/new/prefix1/print.png</iconset>
+   </property>
+   <property name="text">
+    <string>打印（P）…</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/exit.png</normaloff>:/new/prefix1/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出（X）</string>
+   </property>
+  </action>
+  <action name="undoAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/undo.png</normaloff>:/new/prefix1/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>撤销（U）</string>
+   </property>
+  </action>
+  <action name="cutAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/cut.png</normaloff>:/new/prefix1/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>剪切（T）</string>
+   </property>
+  </action>
+  <action name="copyAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/copy.png</normaloff>:/new/prefix1/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>复制（C）</string>
+   </property>
+  </action>
+  <action name="pasteAction">
+   <property name="icon">
+    <iconset>
+     <normaloff>images/paste.png</normaloff>images/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>粘贴（P）</string>
+   </property>
+  </action>
+  <action name="deleteAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/delete.png</normaloff>:/new/prefix1/delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除（L）</string>
+   </property>
+  </action>
+  <action name="action_F">
+   <property name="text">
+    <string>查找（F）…</string>
+   </property>
+  </action>
+  <action name="action_N">
+   <property name="text">
+    <string>查找下一个（N）</string>
+   </property>
+  </action>
+  <action name="action_R">
+   <property name="text">
+    <string>替换（R）…</string>
+   </property>
+  </action>
+  <action name="action_G">
+   <property name="text">
+    <string>转到（G）…</string>
+   </property>
+  </action>
+  <action name="action_A">
+   <property name="text">
+    <string>全选（A）</string>
+   </property>
+  </action>
+  <action name="dateTimeAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/time.png</normaloff>:/new/prefix1/time.png</iconset>
+   </property>
+   <property name="text">
+    <string>时间/日期（D）</string>
+   </property>
+  </action>
+  <action name="action_W">
+   <property name="text">
+    <string>√自动换行（W）</string>
+   </property>
+  </action>
+  <action name="fontAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/font.png</normaloff>:/new/prefix1/font.png</iconset>
+   </property>
+   <property name="text">
+    <string>字体（F）…</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="text">
+    <string>状态栏（S）</string>
+   </property>
+  </action>
+  <action name="action_H">
+   <property name="text">
+    <string>查看帮助（H）</string>
+   </property>
+  </action>
+  <action name="qtHelpAction">
+   <property name="text">
+    <string>关于Qt（A）</string>
+   </property>
+  </action>
+  <action name="colorAction">
+   <property name="icon">
+    <iconset resource="images/qsrc.qrc">
+     <normaloff>:/new/prefix1/colors.png</normaloff>:/new/prefix1/colors.png</iconset>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>日期</string>
+   </property>
+  </action>
+  <action name="aboutBossAction">
+   <property name="text">
+    <string>关于组织</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="images/qsrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

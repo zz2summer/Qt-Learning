@@ -1,0 +1,36 @@
+webkit   第三方开发QT的浏览器控件
+html     XML语言的一种
+HTML     webkit     显示内容
+
+JS
+QT
+OS APIS
+
+QTWEBKIT  API            QWEBVIEW
+                         QWEBPAGE
+                         QWEBFRAME
+
+webkit Engine           webcore
+                        javascrip
+
+platgorm/network  adaption      qtcore
+                                qtxml
+                                qtnetwork   Qsocket  Qport
+
+
+C/S        B/S
+
+
+
+模块化编程   QWbekit类
+
+
+
+#include <QWebKit>
+.pro   QT += webkit
+
+webview *view = new webview();
+view->load(Url("http://www.csu.edu.cn"));
+view->show();
+
+
